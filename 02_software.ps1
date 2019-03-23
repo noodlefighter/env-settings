@@ -3,7 +3,7 @@ choco upgrade chocolatey
 # normal
 cinst -y googlechrome
 cinst -y potplayer
-cinst -y vmware-workstation-player
+#cinst -y vmware-workstation-player # 莫名不起作用
 cinst -y msys2
 cinst -y steam
 
