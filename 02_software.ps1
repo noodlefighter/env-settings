@@ -3,9 +3,12 @@ choco upgrade chocolatey
 # normal
 cinst -y googlechrome
 cinst -y potplayer
-#cinst -y vmware-workstation-player # 莫名不起作用
+cinst -y vmwareworkstation
+cinst -y virtualbox
 cinst -y msys2
 cinst -y steam
+cinst -y officeproplus2013
+cinst -y quiterss
 
 # editor
 cinst -y vscode
@@ -38,12 +41,13 @@ cinst -y ffmpeg
 cinst -y teamviewer
 cinst -y autohotkey
 
-# de
+# dev
 cinst -y git
 cinst -y tortoisegit
 cinst -y cmake
 cinst -y etcher
 cinst -y everything
+cinst -y wsl-ubuntu-1804
 
 # dev-web
 cinst -y nodejs
