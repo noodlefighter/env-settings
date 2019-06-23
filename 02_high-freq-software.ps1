@@ -6,6 +6,7 @@ cinst -y steam
 cinst -y officeproplus2013
 cinst -y quiterss
 cinst -y everything
+cinst -y altdrag
 
 # editor
 cinst -y vscode
