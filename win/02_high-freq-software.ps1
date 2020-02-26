@@ -16,6 +16,7 @@ cinst -y typora
 # runtimes
 cinst -y javaruntime
 cinst -y dotnet3.5
+cinst -y vcredist-all
 
 # light tools
 cinst -y curl
